@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dali's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+        p {
+            text-decoration: hwb(from color h w b);
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+
+        img {
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        nav {
+            background-color: #b6a9a9;
+            width: 100%;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            padding: 15px 20px;
+            color: white;
+        }
+
+        nav ul li :hover{
+            background-color: #777;
+            padding: 5%;
+        }
+        section li {
+            margin-left: 20%;
+        }
+
+        section {
+            width: 80%;
+            max-width: 800px;
+            padding: 10px;
+            margin: 20px 0;
+            background-color: #ccc6c6;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(141, 43, 43, 0.1);
+            align-items: center;
+            align-content: center;
+            border-color: #333;
+            
+        }
+
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+        h6 {
+            text-align: center;
+            color: #f4f4f4;
+            transform: scale(4);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            width: 100%;
+        }
+
+        footer img {
+            width: 50px;
+            height: 50px;
+            margin: 0 10px;
+        }
+        
+
+        button {
+            margin-left: auto;
+            margin-right: auto;
+            align-self: center;
+            padding: 10px 15px;
+            background-color: #555;
+            color: white;
+            border:navy;
+            border-radius: 10px;
+            cursor: pointer;
+            display: flex;
+            align-content: center;
+        }
+
+        button:hover {
+          
+            background-color: #777;
+        }
+
+        a {
+            text-decoration: aqua;
+            color: #333;
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dali's Portfolio</h1>
+        <h6>MouhamedAli Derouiche</h6>
+        <img src="https://th.bing.com/th/id/OIP.XmyTi_G_Q1uywpu4SQmBbwHaIL?w=159&h=180&c=7&r=0&o=5&pid=1.7" alt="Profile Picture">
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#AboutMe">About Me</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Work">Work</a></li>
+            <li><a href="#Contact">Contact</a></li> 
+        </ul>
+    </nav>
+    
+    <section id="AboutMe">
+        <h2>About Me:</h2>
+        <p>I am MohamedAli Derouiche, a <a href="https://student.learn.gomycode.co/">Gomycode</a> student. I define myself as an ambitious beginner developer looking forward to making my first website and starting my professional career in web development.</p>
+    </section>
+
+    <section id="Skills">
+        <h2>Skills:</h2>
+        <ul>
+            <li>Quick Learning</li>
+            <li>Team Work</li>
+            <li>Adaptability</li>
+        </ul>
+    </section>
+
+    <section id="Work">
+        <h2>Work:</h2>
+        <a href="https://github.com/DaliD19?tab=repositories">
+            <button>Github</button>
+        </a>
+    </section>
+
+    <section id="Contact">
+        <h2>Contact:</h2>
+        <p>Email: <a href="mailto:mderwich59@gmail.com">mderwich59@gmail.com</a></p>
+        <a href="https://mail.google.com" class="gmail-button">
+            <button>Contact Via Email</button>
+        </a>
+        <p>Phone Number: +216 29745972</p>
+    </section>
+
+    <footer>
+        <a href="https://www.facebook.com/">
+            <img src="https://th.bing.com/th?id=OIP.6-Etwy2306AInODxxbDK6gHaHY&w=250&h=249&c=8&rs=1&qlt=90&o=6&cb=13&pid=3.1&rm=2" alt="Facebook">
+        </a>
+        <a href="https://linkedin.com/">
+            <img src="https://th.bing.com/th?id=OIP.Cn9SAHCmTy8MEaixr8bqpAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&cb=13&pid=3.1&rm=2" alt="LinkedIn">
+        </a>
+        <a href="https://instagram.com/">
+            <img src="https://th.bing.com/th?id=OIP.A3Vi2_HFbGyJrOL5Uwku0wHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&cb=13&pid=3.1&rm=2" alt="Instagram">
+        </a>
+        <p>© All rights reserved.</p>
+    </footer>
+</body>
+</html>
